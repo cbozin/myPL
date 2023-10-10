@@ -1,0 +1,21 @@
+
+# simple empty classes
+
+class myClass1 {
+
+
+
+}
+
+class myClass2 {
+
+public:
+
+private:
+
+
+}
+
+void main() {
+
+}

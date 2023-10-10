@@ -1,0 +1,29 @@
+
+class myClass {
+
+private:
+    int x
+    string str
+
+    int func(int x){
+        return x + 1
+    }
+
+
+public:
+    int y
+    bool b
+
+}
+
+
+void main() {
+    myClass m = new myClass
+    m.y = 2
+    int x = m.y
+    print(x)
+    print("\n")
+    #this should fail
+    m.x = 5
+
+}

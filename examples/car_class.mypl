@@ -1,0 +1,43 @@
+
+class Car {
+
+private:
+
+public:
+    string brand
+    string model
+    int year
+
+    string get_brand(Car c) {
+        return c.brand
+    }
+
+    string get_model(Car c) {
+        return c.model
+    }
+
+    int get_year(Car c) {
+        return c.year
+    }
+}
+
+
+void main() {
+    Car car = new Car
+    car.brand = "Subaru"
+    car.model = "Legacy"
+    car.year = 2012
+    int y = get_year(car)
+    string b = get_brand(car)
+    string m = get_model(car)
+    print("Car brand: ")
+    print(b)
+    print("\n")
+    print("Car model: " )
+    print(m)
+    print("\n")
+    print("Car year: ")
+    print(y)
+    print("\n")
+
+}

@@ -1,0 +1,26 @@
+
+class myClass {
+
+private:
+    int x
+    string str
+
+    void func(int x){
+        return x + 1
+    }
+
+
+public:
+    int y
+    bool b
+
+    bool func2(){
+        return false
+    }
+}
+
+
+void main() {
+    
+
+}

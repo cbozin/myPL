@@ -1,0 +1,25 @@
+struct myStruct {
+    int y
+}
+
+class myClass {
+
+private:
+    int x
+    string str
+
+public:
+    int y
+    bool b
+    myStruct s
+
+}
+
+
+void main() {
+    myClass m = new myClass
+    int x = m.y
+    print(m.y)
+    print("\n")
+
+}
